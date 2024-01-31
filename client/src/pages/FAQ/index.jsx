@@ -9,7 +9,7 @@ const FAQPage = () => {
   const [searchonevalue, setSearchonevalue] = React.useState("");
 
   function handleNavigate1() {
-    window.location.href = "https://relasto.com";
+    window.location.href = "https://HostelNow.com";
   }
 
   return (
@@ -69,7 +69,7 @@ const FAQPage = () => {
                         size="txtManropeSemiBold16Gray600"
                         onClick={handleNavigate1}
                       >
-                        https://relasto.com
+                        https://HostelNow.com
                       </Text>
                       <Text
                         className="leading-[150.00%] max-w-[732px] md:max-w-full text-gray-600 text-sm"
@@ -98,7 +98,7 @@ const FAQPage = () => {
                           className="text-base text-gray-600 w-full"
                           size="txtManropeSemiBold16Gray600"
                         >
-                          https://relasto.com
+                          https://HostelNow.com
                         </Text>
                         <Text
                           className="text-gray-600 text-sm w-full"
@@ -123,7 +123,7 @@ const FAQPage = () => {
                           className="text-base text-gray-600 w-full"
                           size="txtManropeSemiBold16Gray600"
                         >
-                          https://relasto.com
+                          https://HostelNow.com
                         </Text>
                         <Text
                           className="text-gray-600 text-sm w-full"

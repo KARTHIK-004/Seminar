@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Img, List, Text } from "components";
+import { Text } from "components";
 import Header from "components/Header";
 import LandingPageFooter from "components/LandingPageFooter";
 
@@ -75,9 +75,9 @@ const LicensePage = () => {
                     We use cookies to recognize and monitor users, their on-site
                     behavior, and their preferences for accessing their website.
                     These cookies include the IP and time of visits by visitors.
-                    Visitors to Relasto that do not want cookies put on their
+                    Visitors to HostelNow that do not want cookies put on their
                     browsers should configure their browsers to reject cookies
-                    before using the Relasto website.
+                    before using the HostelNow website.
                   </Text>
                 </div>
                 <div className="flex flex-col gap-6 items-start justify-start w-full">

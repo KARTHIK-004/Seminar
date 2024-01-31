@@ -14,7 +14,7 @@ const Header = (props) => {
                 className="text-orange-A700 text-xl w-auto"
                 size="txtMarkoOneRegular20"
               >
-                Relasto
+                HostelNow
               </Text>
             </div>
             <div className="mobile-menu">
@@ -35,11 +35,7 @@ const Header = (props) => {
                 >
                   Home
                 </Text>
-                <Img
-                  className="h-4 w-4"
-                  src="images/img_arrowdown_gray_600.svg"
-                  alt="arrowdown"
-                />
+                
               </div>
               <div className="flex flex-row gap-1.5 items-start justify-start w-[77px]">
                 <Text
@@ -55,17 +51,7 @@ const Header = (props) => {
                 />
               </div>
               <div className="flex flex-row gap-1.5 items-start justify-start w-[77px]">
-                <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtManropeSemiBold16"
-                >
-                  Agents
-                </Text>
-                <Img
-                  className="h-4 w-4"
-                  src="images/img_arrowdown_gray_600.svg"
-                  alt="arrowdown"
-                />
+                
               </div>
             </List>
             <Text
@@ -74,12 +60,7 @@ const Header = (props) => {
             >
               Property{" "}
             </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              Blog
-            </Text>
+            
           </div>
           <div className="flex flex-row gap-10 h-[42px] md:h-auto sm:hidden items-center justify-start w-[228px]">
             <Button

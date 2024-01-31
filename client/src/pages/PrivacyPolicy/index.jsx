@@ -33,9 +33,9 @@ const PrivacyPolicyPage = () => {
                 >
                   <>
                     Hi, welcome to our privacy policy which applies to our
-                    customers. This policy sets out how if you are a Relasto.com
-                    user or visitor to our site, we treat your personal
-                    information.
+                    customers. This policy sets out how if you are a
+                    HostelNow.com user or visitor to our site, we treat your
+                    personal information.
                     <br />
                     Last updated on March 01, 2020.
                   </>
@@ -56,7 +56,7 @@ const PrivacyPolicyPage = () => {
                     <>
                       Hi, welcome to our privacy policy which applies to our
                       customers. This policy sets out how if you are a
-                      Relasto.com user or visitor to our site, we treat your
+                      HostelNow.com user or visitor to our site, we treat your
                       personal information.
                       <br />
                       Last updated on March 01, 2020.
@@ -77,9 +77,9 @@ const PrivacyPolicyPage = () => {
                     We use cookies to recognize and monitor users, their on-site
                     behavior, and their preferences for accessing their website.
                     These cookies include the IP and time of visits by visitors.
-                    Visitors to Relasto that do not want cookies put on their
+                    Visitors to HostelNow that do not want cookies put on their
                     browsers should configure their browsers to reject cookies
-                    before using the Relasto website.
+                    before using the HostelNow website.
                   </Text>
                 </div>
                 <div className="flex flex-col gap-6 items-start justify-start w-full">
@@ -148,7 +148,7 @@ const PrivacyPolicyPage = () => {
                       If you or your Participants use a mobile telephone to
                       access our Service, we may need to send SMS messages. You
                       may opt out of this service by replying STOP to the SMS
-                      message or by contacting us at support@Relasto.com.
+                      message or by contacting us at support@HostelNow.com.
                     </>
                   </Text>
                 </div>

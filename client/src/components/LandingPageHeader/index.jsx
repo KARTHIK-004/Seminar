@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { Button, Img, List, Text } from "components";
 
 const LandingPageHeader = (props) => {
@@ -14,7 +14,7 @@ const LandingPageHeader = (props) => {
                 className="text-orange-A700 text-xl w-auto"
                 size="txtMarkoOneRegular20"
               >
-                Relasto
+                HostelNow
               </Text>
             </div>
             <div className="mobile-menu">
@@ -25,61 +25,49 @@ const LandingPageHeader = (props) => {
           </div>
           <div className="flex sm:flex-1 sm:flex-col flex-row sm:hidden items-center justify-between w-[492px] sm:w-full">
             <List
-              className="sm:flex-col flex-row gap-10 grid grid-cols-3"
+              className="sm:flex-col flex-row gap-14 grid grid-cols-3"
               orientation="horizontal"
             >
-              <div className="flex flex-row gap-1.5 items-start justify-start w-[77px]">
-                <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtManropeSemiBold16"
-                >
-                  Home
-                </Text>
-                <Img
-                  className="h-4 w-4"
-                  src="images/img_arrowdown_gray_600.svg"
-                  alt="arrowdown"
-                />
-              </div>
-              <div className="flex flex-row gap-1.5 items-start justify-start w-[77px]">
-                <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtManropeSemiBold16"
-                >
-                  Listing
-                </Text>
-                <Img
-                  className="h-4 w-4"
-                  src="images/img_arrowdown_gray_600.svg"
-                  alt="arrowdown"
-                />
-              </div>
-              <div className="flex flex-row gap-1.5 items-start justify-start w-[77px]">
-                <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtManropeSemiBold16"
-                >
-                  Agents
-                </Text>
-                <Img
-                  className="h-4 w-4"
-                  src="images/img_arrowdown_gray_600.svg"
-                  alt="arrowdown"
-                />
+              <div className="flex flex-row gap-x-10 items-start justify-start w-[77px]">
+                {/* Home */}
+                <Link to="/">
+                  <Text
+                    className="text-base text-gray-900 w-auto"
+                    size="txtManropeSemiBold16"
+                  >
+                    Home
+                  </Text>
+                </Link>
+                {/* Listing */}
+                <Link to="/listing">
+                  <Text
+                    className="text-base text-gray-900 w-auto"
+                    size="txtManropeSemiBold16"
+                  >
+                    Listing
+                  </Text>
+                </Link>
+                {/* property */}
+                <Link to="/aboutus">
+                  <Text
+                    className="text-base text-center text-gray-900 w-auto"
+                    size="txtManropeSemiBold16"
+                  >
+                    AboutUs
+                  </Text>
+                </Link>
+
+                {/* Contact */}
+                <Link to="/contactpage">
+                  <Text
+                    className="text-base text-gray-900 w-auto"
+                    size="txtManropeSemiBold16"
+                  >
+                    Contact
+                  </Text>
+                </Link>
               </div>
             </List>
-            <Text
-              className="text-base text-center text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              Property{" "}
-            </Text>
-            <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtManropeSemiBold16"
-            >
-              Blog
-            </Text>
           </div>
           <div className="flex flex-row gap-10 h-[42px] md:h-auto sm:hidden items-center justify-start w-[228px]">
             <Button
@@ -96,9 +84,12 @@ const LandingPageHeader = (props) => {
                 Search
               </div>
             </Button>
-            <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 rounded-[10px] text-base text-center text-white-A700 w-full">
+            <Link to="/log-in">
+              <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 p-6 rounded-[10px] text-base text-center text-white-A700 w-full">
               Log in
             </Button>
+            </Link>
+            
           </div>
         </div>
       </header>

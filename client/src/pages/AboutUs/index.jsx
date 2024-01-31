@@ -253,7 +253,7 @@ const AboutUsPage = () => {
                       className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                       size="txtManropeBold22"
                     >
-                      Relasto holds its initial public offering in 2008
+                      HostelNow holds its initial public offering in 2008
                     </Text>
                     <Text
                       className="leading-[180.00%] max-w-[470px] md:max-w-full text-gray-700 text-lg"
@@ -330,7 +330,7 @@ const AboutUsPage = () => {
               className="text-4xl sm:text-[32px] md:text-[34px] text-center text-gray-900 tracking-[-0.72px] w-full"
               size="txtManropeExtraBold36"
             >
-              Relasto Team members
+              HostelNow Team members
             </Text>
             <div className="flex flex-col items-start justify-start w-full">
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 justify-center min-h-[auto] w-full">

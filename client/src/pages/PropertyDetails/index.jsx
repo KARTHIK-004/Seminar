@@ -378,7 +378,7 @@ const PropertyDetailsPage = () => {
                               className="text-base text-gray-600 w-auto"
                               size="txtManropeMedium16"
                             >
-                              bruno@relasto .com
+                              bruno@HostelNow .com
                             </Text>
                           </div>
                           <div className="flex flex-row gap-2.5 items-center justify-start w-full">

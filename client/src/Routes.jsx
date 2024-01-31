@@ -6,11 +6,9 @@ const License = React.lazy(() => import("pages/License"));
 const PrivacyPolicy = React.lazy(() => import("pages/PrivacyPolicy"));
 const FAQ = React.lazy(() => import("pages/FAQ"));
 const Error = React.lazy(() => import("pages/Error"));
-const BlogDetails = React.lazy(() => import("pages/BlogDetails"));
-const BlogPage = React.lazy(() => import("pages/BlogPage"));
+const LogIn = React.lazy(() => import("pages/LogIn"));
+
 const ContactPage = React.lazy(() => import("pages/ContactPage"));
-const AgentProfile = React.lazy(() => import("pages/AgentProfile"));
-const AgentList = React.lazy(() => import("pages/AgentList"));
 const PropertyDetails = React.lazy(() => import("pages/PropertyDetails"));
 const ListingMapView = React.lazy(() => import("pages/ListingMapView"));
 const Listing = React.lazy(() => import("pages/Listing"));
@@ -27,13 +25,10 @@ const ProjectRoutes = () => {
           <Route path="/listing" element={<Listing />} />
           <Route path="/listingmapview" element={<ListingMapView />} />
           <Route path="/propertydetails" element={<PropertyDetails />} />
-          <Route path="/agentlist" element={<AgentList />} />
-          <Route path="/agentprofile" element={<AgentProfile />} />
           <Route path="/contactpage" element={<ContactPage />} />
-          <Route path="/blogpage" element={<BlogPage />} />
-          <Route path="/blogdetails" element={<BlogDetails />} />
           <Route path="/error" element={<Error />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/log-in" element={<LogIn />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/license" element={<License />} />
           <Route path="/dhiwise-dashboard" element={<Home />} />

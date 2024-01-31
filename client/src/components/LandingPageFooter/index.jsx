@@ -19,7 +19,7 @@ const LandingPageFooter = (props) => {
                   className="text-orange-A700 text-xl w-auto"
                   size="txtMarkoOneRegular20"
                 >
-                  Relasto
+                  HostelNow
                 </Text>
               </div>
               <div className="flex flex-col gap-7 h-[194px] md:h-auto items-start justify-start w-full">
@@ -149,18 +149,7 @@ const LandingPageFooter = (props) => {
                   >
                     Property Details
                   </Text>
-                  <Text
-                    className="text-base text-gray-900 w-full"
-                    size="txtManropeSemiBold16"
-                  >
-                    <>Agent List</>
-                  </Text>
-                  <Text
-                    className="text-base text-gray-900 w-full"
-                    size="txtManropeSemiBold16"
-                  >
-                    Agent Profile
-                  </Text>
+                 
                 </div>
               </div>
               <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
@@ -171,12 +160,7 @@ const LandingPageFooter = (props) => {
                   Documentation{" "}
                 </Text>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                  <Text
-                    className="text-base text-gray-900 w-full"
-                    size="txtManropeSemiBold16"
-                  >
-                    Blog
-                  </Text>
+                  
                   <Text
                     className="text-base text-gray-900 w-full"
                     size="txtManropeSemiBold16"
